@@ -1,0 +1,59 @@
+@media(width < 425px) {
+   .search {
+      margin-left: -12px !important;
+   }
+}
+
+@media(width >= 280px) and (width < 400px) {
+   .search_bar {
+      width: 160px !important;
+   }
+ 
+
+   .logo_width {
+      width: 40px !important;
+      height: 40px !important;
+   }
+}
+
+@media (width < 330px) {
+   .search_bar {
+      width: 100px !important;
+   }
+ 
+}
+
+@media (width >=280px) {
+   .explore {
+      display: block;
+   }
+
+   .spacing {
+      gap: 6
+   }
+
+   .mobile_explore {
+      display: none;
+   }
+}
+
+@media(width >= 580px) and (width < 1023px) {
+   .signed_up {
+      display: flex !important;
+   }
+   .mobile_signup {
+      display: none;
+   }
+}
+
+@media (width >= 920px ) and (width < 1023px) {
+
+   .search_bar {
+      width: 280px !important;
+   }
+
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 8px rgba(33, 150, 243, 0.5); /* Adjust values as needed */
+}
